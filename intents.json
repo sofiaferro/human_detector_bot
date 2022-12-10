@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hey",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for starting this journey with me, do you identify yourself as a human?",
+        "Good to see you, would you say you are a human?",
+        "Let's cut this to the chase, ARE YOU A HUMAN?"
+      ]
+    },
+    {
+      "tag": "human_experience",
+      "patterns": ["Yes, I'm a human", "I do", "I am", "I'm a human", "Yes"],
+      "responses": [
+        "Really, are you? I have doubts, are you able to love and hate?",
+        "Ok, so you are a cool human, then what is your favorite dish?",
+        "You sure you are not a machine like me? You sound like one",
+        "If you are really really a human, what does a jasmine smell like?"
+      ]
+    },
+    {
+      "tag": "love_hate_positive",
+      "patterns": [
+        "I'm able to love and hate",
+        "Yes, I'm in love",
+        "I hate everybody",
+        "Of course I can",
+        "I totally can"
+      ],
+      "responses": [
+        "There you go, then I'll send you your Pure Human Certification via email. Congratulations!",
+        "You sound like a machine, and maybe you are, and maybe all this doesn't make sense. See you around in a bot conference!",
+        "Not totally convinced...Bye!"
+      ]
+    },
+    {
+      "tag": "love_hate_negative",
+      "patterns": [
+        "Not sure",
+        "No, I can't",
+        "Maybe I am a machine",
+        "I don't feel anything",
+        "Feelings, what's that?"
+      ],
+      "responses": [
+        "You sound like a machine, and maybe you are, and maybe all this doesn't make sense. See you around in a bot conference!",
+        "That's how a bot sounds! Or writes! Whatever"
+      ]
+    },
+    {
+      "tag": "dishes_positive",
+      "patterns": [
+        "Calzones",
+        "Deep Fried Main Dishes",
+        "Seafood Main Dishes",
+        "Meatballs",
+        "Curry Main Dishes",
+        "Quiche",
+        "Chicken Main Dishes",
+        "Pasta Main Dishes",
+        "Rice",
+        "Fish",
+        "Asado"
+      ],
+      "responses": [
+        "Congratulations! You won your Pure Human Certificate! See you around!"
+      ]
+    },
+    {
+      "tag": "dishes_negative",
+      "patterns": [
+        "I don't eat",
+        "I don't like eating",
+        "All I eat tastes the same",
+        "I have no taste",
+        "What is a dish?"
+      ],
+      "responses": [
+        "You sound like a machine, and maybe you are, and maybe all this doesn't make sense. See you around in a bot conference!",
+        "That's how a bot sounds! Or writes! Whatever"
+      ]
+    },
+    {
+      "tag": "jasmines_positive",
+      "patterns": [
+        "Jasmines are sweet",
+        "Jasmines are delicious",
+        "Jasmines smell nice",
+        "Jasmines smell like any flower",
+        "Like a jasmine"
+      ],
+      "responses": [
+        "Congratulations! You won your Pure Human Certificate! See you around!"
+      ]
+    },
+    {
+      "tag": "jasmines_negative",
+      "patterns": [
+        "I don't know jasmines",
+        "I don't really know"
+      ],
+      "responses": [
+        "You sound like a machine, and maybe you are, and maybe all this doesn't make sense. See you around in a bot conference!",
+        "That's how a bot sounds! Or writes! Whatever"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "Bye bye", "See you"],
+      "responses": [
+        "Adiós! Don't forget to say 'quit' and your wishes will come true",
+        "Byebyeee! Now try the magic word: quit",
+        "See you later aligator! Type quit to exit this nonesense test"
+      ]
+    }
+  ]
+}
